@@ -1,0 +1,23 @@
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: $background;
+    padding-top: 5px;
+
+    a img {
+        filter: brightness(1) invert(100%);
+        transition: 0s filter;
+
+        &:hover {
+            filter: opacity(0.4) drop-shadow(0 0 0 blue);
+            transition-delay: 0.1s;
+        }
+        
+    }
+    
+}
